@@ -1,0 +1,202 @@
+body{
+    font-family: 'Rubik',sans-serif;
+    margin: 0;
+    background-color: #e1e1e1;
+}
+
+/* nav */
+nav{
+    background-color: #ffffff;
+    height: 10vh;
+    display: flex;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-kiri{
+    flex: 50%;
+    padding-left: 100px;
+}
+
+nav .nav-kanan{
+    flex: 50%;
+    padding-right: 100px;
+    justify-content: end;
+}
+
+nav ul{
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+nav ul li a.bold{
+    color: #000000;
+    font-weight: 700;
+}
+
+nav .nav-kanan a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #292929;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* index.html */
+.container{
+    width: 85%;
+    height: 90vh;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.head-card{
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #222;
+}
+
+.card{
+    flex: 70%;
+    padding: 20px 0 20px 40px;
+}
+
+.card p{
+    text-align: justify;
+}
+
+.card .click{
+    padding: 20px 0;
+}
+
+.card .contact{
+    background-color: #292929;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+.card .download{
+    padding: 8px 20px;
+    color: #292929;
+    text-decoration: none;
+}
+
+.card .icon{
+    padding-top: 30px;
+}
+
+.card .icon a{
+    text-decoration: none;
+    color: #292929;
+    padding-right: 50px;
+}
+
+.head-profil{
+    flex: 30%;
+    padding: 20px 0;
+}
+
+.profil{
+    margin: 0 auto;
+    box-shadow: 0 0 10px #292929;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.profil h2{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.profil img{
+    border-radius: 10px 10px 0 0;
+}
+
+.profil p{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+/* contact.html */
+.container-contact{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.container-contact h2{
+    text-align: center;
+}
+
+form div{
+    padding: 10px;
+    font-weight: 500
+}
+
+form input{
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 2px #cccccc;
+    border: 0px;
+}
+
+form select{
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 2px #cccccc;
+    border: 0px;
+}
+
+form textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 2px #cccccc;
+    resize: none;
+    height: 100px;
+    border: 0px;
+}
+
+form button{
+    border: 0px;
+    background-color: #292929;
+    padding: 8px 10px;
+    border-radius: 25px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    float: right;
+    margin-bottom: 50px;
+}
